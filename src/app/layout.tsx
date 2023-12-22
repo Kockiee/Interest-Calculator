@@ -7,6 +7,19 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Calculadora de Juros Compostos Online | Finance Calc',
   description: 'Use nossa ferramenta online gratuita para calcular juros compostos de maneira rápida e eficiente.',
+  openGraph: {
+    title: 'Calculadora de Juros Compostos Online | Finance Calc',
+    description: 'Use nossa ferramenta online gratuita para calcular juros compostos de maneira rápida e eficiente.',
+    images: [
+      {
+        url: 'URL_DA_IMAGEM_PARA_COMPARTILHAMENTO',
+        width: 824,
+        height: 482,
+        alt: 'Imagem representativa da calculadora de juros compostos',
+      },
+    ],
+    siteName: 'Calculadora de Juros Compostos Online | Finance Calc',
+  }
 }
 
 
