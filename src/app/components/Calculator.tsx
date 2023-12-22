@@ -123,7 +123,7 @@ export default function Calculator () {
                             {interestRateType === 0 ? 'Anual' : "Mensal"} <TiArrowSortedDown />
                         </button>
                         {dropdownOneOpened && (
-                            <div className='fixed w-32 mt-14 max-sm:mr-8 z-10 rounded bg-gray-950 flex justify-center items-center border border-1 border-white'>
+                            <div className='absolute w-32 mt-14 max-sm:mr-8 z-10 rounded bg-gray-950 flex justify-center items-center border border-1 border-white'>
                                 <button 
                                 onClick={() => {
                                     setInterestRateType(interestRateType === 0 ? 1 : 0)
@@ -164,7 +164,7 @@ export default function Calculator () {
                             {periodType === 0 ? 'Anos' : "Meses"} <TiArrowSortedDown />
                         </button>
                         {dropdownTwoOpened && (
-                            <div className='fixed w-32 mt-14 max-sm:mr-8 z-10 rounded bg-gray-950 flex justify-center items-center border border-1 border-white'>
+                            <div className='absolute w-32 mt-14 max-sm:mr-8 z-10 rounded bg-gray-950 flex justify-center items-center border border-1 border-white'>
                                 <button 
                                 onClick={() => {
                                     setPeriodType(periodType === 0 ? 1 : 0)
