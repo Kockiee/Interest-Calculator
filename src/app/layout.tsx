@@ -5,20 +5,20 @@ import './global.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Juros Compostos Online | Finance Calc',
+  title: 'Calculadora de Juros Compostos Online',
   description: 'Use nossa ferramenta online gratuita para calcular juros compostos de maneira rápida e eficiente.',
   openGraph: {
-    title: 'Calculadora de Juros Compostos Online | Finance Calc',
+    title: 'Calculadora de Juros Compostos Online',
     description: 'Use nossa ferramenta online gratuita para calcular juros compostos de maneira rápida e eficiente.',
     images: [
       {
-        url: 'https://taxa-exponencial.vercel.app/calc.jpg',
+        url: 'https://juros-compostos-calculadora.vercel.app/calc.jpg',
         width: 824,
         height: 482,
         alt: 'Imagem representativa da calculadora de juros compostos',
       },
     ],
-    siteName: 'Calculadora de Juros Compostos Online | Finance Calc',
+    siteName: 'Calculadora de Juros Compostos Online',
   }
 }
 
