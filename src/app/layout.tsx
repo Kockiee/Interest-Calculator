@@ -30,9 +30,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <head>
-        <meta name="google-adsense-account" content="ca-pub-7569021266498491"/>
-      </head>
       <body>
         <div className={`bg-black min-h-screen w-full ${inter.className} flex flex-row w-full text-gray-900 dark:text-gray-100 font-medium`}>
           {children}
