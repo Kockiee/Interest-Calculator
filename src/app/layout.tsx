@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: 'Use nossa ferramenta online gratuita para calcular juros compostos de maneira rápida e eficiente.',
     images: [
       {
-        url: 'URL_DA_IMAGEM_PARA_COMPARTILHAMENTO',
+        url: 'https://taxa-exponencial.vercel.app/calc.jpg',
         width: 824,
         height: 482,
         alt: 'Imagem representativa da calculadora de juros compostos',
