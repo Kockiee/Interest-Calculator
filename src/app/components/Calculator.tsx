@@ -132,7 +132,7 @@ export default function Calculator () {
                                 type='button' 
                                 className='w-full h-full p-2'
                                 >
-                                    {interestRateType === 0 ? 'Meses' : 'Anos'}
+                                    {interestRateType === 0 ? 'Mensal' : 'Anual'}
                                 </button>
                             </div>
                         )}
